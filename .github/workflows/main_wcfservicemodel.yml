@@ -55,7 +55,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'wcfservicemodel2'
+          app-name: 'wcfservicemodel3'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A8984E1110B4415988E6EA9FCA398754 }}
           package: .
